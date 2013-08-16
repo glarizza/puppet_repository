@@ -7,6 +7,7 @@ mod "puppetlabs/pe_gem"
 mod "puppetlabs/mysql"
 mod "puppetlabs/firewall"
 mod "thias/vsftpd"
+mod "ripienaar/concat"
 
 
 # Modules from Github using various references
