@@ -29,3 +29,7 @@ mod "property_list_key",
 mod 'redis',
   :git => 'git://github.com/glarizza/puppet-redis',
   :ref => 'feature/debian_support'
+
+mod 'notifyme',
+  :git => 'git://github.com/glarizza/puppet-notifyme'
+
