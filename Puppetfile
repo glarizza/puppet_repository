@@ -9,6 +9,7 @@ mod "puppetlabs/firewall",
 mod "puppetlabs/vcsrepo"
 mod "puppetlabs/git"
 mod "puppetlabs/inifile"
+mod "zack/r10k"
 mod "gentoo/portage"
 mod "thias/vsftpd"
 
@@ -22,6 +23,6 @@ mod "property_list_key",
   :git => "git://github.com/glarizza/puppet-property_list_key.git",
   :ref => '952a65d9ea2c5809f4e18f30537925ee45548abc'
 
-mod 'r10k',
-  :git => 'git://github.com/glarizza/r10k',
-  :ref => 'feature/pe_update'
+mod 'redis',
+  :git => 'git://github.com/glarizza/puppet-redis',
+  :ref => 'feature/debian_support'
