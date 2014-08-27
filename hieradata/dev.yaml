@@ -1,2 +1,4 @@
 ---
-message: "This node is in the webinar_env environment"
+message: 'This overrides the dev message'
+
+java_version: '1.7.0_60'
