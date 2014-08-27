@@ -1,0 +1,4 @@
+---
+message: 'You are in the test application tier'
+
+java_version: '1.8.0_11'
