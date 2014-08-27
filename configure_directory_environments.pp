@@ -16,13 +16,13 @@ Ini_setting {
 ini_setting { 'Configure environmentpath':
   section => 'main',
   setting => 'environmentpath',
-  value   => '$::settings::confdir/environments',
+  value   => '$confdir/environments',
 }
 
 ini_setting { 'Configure basemodulepath':
   section => 'main',
   setting => 'basemodulepath',
-  value   => '$::settings::confdir/modules:/opt/puppet/share/puppet/modules',
+  value   => '$confdir/modules:/opt/puppet/share/puppet/modules',
 }
 
 exec { 'trigger_r10k':
