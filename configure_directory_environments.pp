@@ -10,7 +10,6 @@
 Ini_setting {
   ensure => present,
   path   => "${::settings::confdir}/puppet.conf",
-  notify => Exec['trigger_r10k'],
 }
 
 ini_setting { 'Configure environmentpath':
@@ -23,10 +22,4 @@ ini_setting { 'Configure basemodulepath':
   section => 'main',
   setting => 'basemodulepath',
   value   => '$confdir/modules:/opt/puppet/share/puppet/modules',
-}
-
-exec { 'trigger_r10k':
-  command     => 'r10k deploy environment -p',
-  path        => '/opt/puppet/bin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin',
-  refreshonly => true,
 }
