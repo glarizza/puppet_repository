@@ -3,6 +3,26 @@ forge "http://forge.puppetlabs.com"
 # Modules from the Puppet Forge
 mod "puppetlabs/apache"
 mod "puppetlabs/ntp"
+mod "puppetlabs/firewall"
+mod "puppetlabs/puppetdb"
+mod "puppetlabs/stdlib"
+mod "puppetlabs/mcollective"
+mod "puppetlabs/powershell"
+mod "puppetlabs/inifile"
+mod "puppetlabs/postgresql"
+
+mod "jriviere/windows_ad"
+
+# For our r10k installer
+mod "zack/r10k"
+mod "gentoo/portage"
+mod "mhuffnagle/make"
+mod "puppetlabs/gcc"
+mod "puppetlabs/git"
+mod "puppetlabs/inifile"
+mod "puppetlabs/pe_gem"
+mod "puppetlabs/ruby"
+mod "puppetlabs/vcsrepo"
 
 # Modules from Github using various references
 mod 'notifyme',
