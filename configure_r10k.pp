@@ -7,7 +7,7 @@
 ##  Beware! (and good luck!)
 
 class { 'r10k':
-  version           => '1.3.2',
+  version           => '1.3.4',
   sources           => {
     'puppet' => {
       'remote'  => 'https://github.com/jpicklyk/puppet_repository.git',
@@ -16,5 +16,6 @@ class { 'r10k':
     }
   },
   purgedirs         => ["${::settings::confdir}/environments"],
-  manage_modulepath => false,
+  manage_modulepath => true,
+  modulepath        => "${::settings::confdir}/environments/\$environment/modules:/opt/puppet/share/puppet/modules",
 }
