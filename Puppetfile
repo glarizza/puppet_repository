@@ -10,6 +10,8 @@ mod "puppetlabs/mcollective"
 mod "puppetlabs/powershell"
 mod "puppetlabs/inifile"
 mod "puppetlabs/postgresql"
+mod "puppetlabs/apt"
+mod "puppetlabs/concat"
 
 mod "jriviere/windows_ad"
 
