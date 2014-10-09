@@ -3,6 +3,7 @@
   - yaml
 :hierarchy:
   - "%{clientcert}"
+  - lab/%{puppet_lab}
   - puppet_role/%{puppet_role}
   - "%{application_tier}"
   - common
