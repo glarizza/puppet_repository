@@ -26,20 +26,6 @@ filebucket { 'main':
 # Make filebucket 'main' the default backup location for all File resources:
 File { backup => 'main' }
 
-node 'puppetmaster.puppetmaster-ges.b5.internal.cloudapp.net' {
-  # PuppetDB
-  include ::puppetdb
-  # For Puppet open source installed using passenger, we need to point to apache2 instead of puppetmaster
-  class { 'puppetdb::master::config':
-    puppet_service_name => 'apache2',
-  }
-
-  # Hiera
-  package { ['hiera', 'hiera-puppet']:
-    ensure => present,
-  }
-}
-
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
 # http://docs.puppetlabs.com/guides/language_guide.html#nodes for more on
@@ -53,5 +39,5 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  
+  hiera_include('classes')
 }

@@ -1,2 +1,4 @@
 ---
-message: "This node is using common data"
+puppetmaster: 'puppetmaster.puppetmaster-ges.b5.internal.cloudapp.net'
+classes:
+  profile::base 
