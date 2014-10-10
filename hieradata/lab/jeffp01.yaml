@@ -1,5 +1,5 @@
 windows_ad::restart: true
-windows_ad::domainname: 'jeffp01.testlab.net'
+windows_ad::domainname: 'jeffp01.ss360labs.net'
 windows_ad::domain: 'forest'
 windows_ad::netbiosdomainname: 'jeffp01'
 windows_ad::domainlevel: '4'
