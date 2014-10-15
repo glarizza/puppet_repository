@@ -46,5 +46,4 @@ mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
 
 mod "windows_puppet",
-  :git => "git://github.com/jpicklyk/puppet-windows_puppet",
-  :ref => '460aecaf862aeb576389513ed2af4f03244da1d7'
+  :git => "git://github.com/jpicklyk/puppet-windows_puppet"
