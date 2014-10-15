@@ -26,6 +26,15 @@ mod "puppetlabs/pe_gem"
 mod "puppetlabs/ruby"
 mod "puppetlabs/vcsrepo"
 
+#Puppet updates
+mod "cyberious/pget"
+mod "cyberious/windows_puppet"
+
+#Chocolatey
+mod "rismoney/chocolatey"
+mod "ceritsc/chocolatey_sw"
+
+
 # Modules from Github using various references
 mod 'notifyme',
   :git => 'git://github.com/glarizza/puppet-notifyme',
@@ -39,3 +48,7 @@ mod "profile",
 
 mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
+
+mod "windows_puppet",
+  :git => "git://github.com/jpicklyk/puppet-windows_puppet"
+  :ref => '460aecaf862aeb576389513ed2af4f03244da1d7'
