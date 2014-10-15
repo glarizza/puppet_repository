@@ -1,4 +1,4 @@
 ---
-::windows_puppet::master 'puppet-ss360labs.cloudapp.net'
+windows_puppet::master: 'puppet-ss360labs.cloudapp.net'
 classes:
   profile::base 
