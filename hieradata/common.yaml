@@ -1,4 +1,4 @@
 ---
-puppetmaster: 'puppetmaster.puppetmaster-ges.b5.internal.cloudapp.net'
+::windows_puppet::master 'puppet-ss360labs.cloudapp.net'
 classes:
   profile::base 
