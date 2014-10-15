@@ -30,10 +30,6 @@ mod "puppetlabs/vcsrepo"
 mod "cyberious/pget"
 mod "cyberious/windows_puppet"
 
-#Chocolatey
-mod "rismoney/chocolatey"
-mod "ceritsc/chocolatey_sw"
-
 
 # Modules from Github using various references
 mod 'notifyme',
