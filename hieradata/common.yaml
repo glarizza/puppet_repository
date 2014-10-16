@@ -1,2 +1,5 @@
 ---
-message: "This node is using common data"
+windows_puppet::master: 'puppet-ss360labs.cloudapp.net'
+windows_puppet::version: '3.7.1'
+classes:
+  profile::base 
