@@ -33,7 +33,7 @@ mod "cyberious/pget"
 
 #Chocolatey
 mod "rismoney/chocolatey"
-
+mod "ceritsc/chocolatey_sw"
 
 # Modules from Github using various references
 mod 'notifyme',
