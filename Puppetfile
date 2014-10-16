@@ -45,7 +45,7 @@ mod "role",
 
 mod "profile",
   :git => "git://github.com/jpicklyk/profile",
-  :ref => "feature_iesec"
+  :ref => "iesec"
 
 mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
