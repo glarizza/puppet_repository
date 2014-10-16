@@ -28,7 +28,6 @@ mod "puppetlabs/vcsrepo"
 
 #Puppet updates
 mod "cyberious/pget"
-mod "cyberious/windows_puppet"
 
 
 # Modules from Github using various references
