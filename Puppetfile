@@ -33,7 +33,7 @@ mod "cyberious/pget"
 
 #Chocolatey
 mod "rismoney/chocolatey"
-mod "ceritsc/chocolatey_sw"
+
 
 # Modules from Github using various references
 mod 'notifyme',
@@ -53,3 +53,6 @@ mod "custom_facts",
 mod "windows_puppet",
   :git => "git://github.com/jpicklyk/puppet-windows_puppet",
   :ref => "85909d8bea882163b3c7c82ccb78c1a4d6485df2"
+
+mod "chocolatey_sw",
+  :git => "git://github.com/jpicklyk/puppet-chocolatey_sw"
