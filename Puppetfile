@@ -12,6 +12,7 @@ mod "puppetlabs/inifile"
 mod "puppetlabs/postgresql"
 mod "puppetlabs/apt"
 mod "puppetlabs/concat"
+mod "puppetlabs/registry"
 
 mod "jriviere/windows_ad"
 
