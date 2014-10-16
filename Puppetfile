@@ -14,6 +14,7 @@ mod "puppetlabs/apt"
 mod "puppetlabs/concat"
 mod "puppetlabs/registry"
 
+mod "jonnyx/iesec"
 mod "jriviere/windows_ad"
 
 # For our r10k installer
@@ -43,7 +44,8 @@ mod "role",
   :git => "git://github.com/jpicklyk/role"
 
 mod "profile",
-  :git => "git://github.com/jpicklyk/profile"
+  :git => "git://github.com/jpicklyk/profile",
+  :ref => "feature_iesec"
 
 mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
