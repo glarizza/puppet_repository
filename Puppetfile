@@ -17,6 +17,7 @@ mod "puppetlabs/registry"
 mod "jonnyx/iesec"
 mod "jriviere/windows_ad"
 mod "trlinkin/domain_membership"
+mod "puppetlabs/reboot"
 
 # For our r10k installer
 mod "zack/r10k"
