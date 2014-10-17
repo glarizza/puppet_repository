@@ -42,7 +42,8 @@ mod 'notifyme',
   :ref => '50c01703b2e3e352520a9a2271ea4947fe17a51f'
 
 mod "role",
-  :git => "git://github.com/jpicklyk/role"
+  :git => "git://github.com/jpicklyk/role",
+  :ref => "domain_member"
 
 mod "profile",
   :git => "git://github.com/jpicklyk/profile",
