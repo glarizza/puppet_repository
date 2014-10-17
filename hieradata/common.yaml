@@ -9,5 +9,6 @@ profile::win_default_apps::applications:
   - "GoogleChrome"
   - "windirstat"
   - "windowstelnet"
+  - "PowerShell"
 classes:
   profile::base 
