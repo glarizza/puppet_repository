@@ -16,6 +16,7 @@ mod "puppetlabs/registry"
 
 mod "jonnyx/iesec"
 mod "jriviere/windows_ad"
+mod "trlinkin/domain_membership"
 
 # For our r10k installer
 mod "zack/r10k"
@@ -44,7 +45,8 @@ mod "role",
   :git => "git://github.com/jpicklyk/role"
 
 mod "profile",
-  :git => "git://github.com/jpicklyk/profile"
+  :git => "git://github.com/jpicklyk/profile",
+  :ref => "domain_member"
 
 mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
