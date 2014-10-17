@@ -16,7 +16,6 @@ mod "puppetlabs/registry"
 
 mod "jonnyx/iesec"
 mod "jriviere/windows_ad"
-mod "trlinkin/domain_membership"
 mod "puppetlabs/reboot"
 
 # For our r10k installer
@@ -59,3 +58,7 @@ mod "windows_puppet",
 
 mod "chocolatey_sw",
   :git => "git://github.com/jpicklyk/puppet-chocolatey_sw"
+  
+mod "domain_membership",
+  :git => "git://github.com/jpicklyk/puppet-domain_membership",
+  :ref => "powershell"
