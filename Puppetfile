@@ -16,6 +16,7 @@ mod "puppetlabs/registry"
 
 mod "jonnyx/iesec"
 mod "jriviere/windows_ad"
+mod "puppetlabs/reboot"
 
 # For our r10k installer
 mod "zack/r10k"
@@ -41,10 +42,12 @@ mod 'notifyme',
   :ref => '50c01703b2e3e352520a9a2271ea4947fe17a51f'
 
 mod "role",
-  :git => "git://github.com/jpicklyk/role"
+  :git => "git://github.com/jpicklyk/role",
+  :ref => "domain_member"
 
 mod "profile",
-  :git => "git://github.com/jpicklyk/profile"
+  :git => "git://github.com/jpicklyk/profile",
+  :ref => "domain_member"
 
 mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
@@ -55,3 +58,7 @@ mod "windows_puppet",
 
 mod "chocolatey_sw",
   :git => "git://github.com/jpicklyk/puppet-chocolatey_sw"
+  
+mod "domain_membership",
+  :git => "git://github.com/jpicklyk/puppet-domain_membership",
+  :ref => "powershell"
