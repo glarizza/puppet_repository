@@ -42,7 +42,8 @@ mod "role",
   :git => "git://github.com/jpicklyk/role"
 
 mod "profile",
-  :git => "git://github.com/jpicklyk/profile"
+  :git => "git://github.com/jpicklyk/profile",
+  :ref => "dns"
 
 mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
@@ -57,3 +58,6 @@ mod "chocolatey_sw",
 mod "domain_membership",
   :git => "git://github.com/jpicklyk/puppet-domain_membership",
   :ref => "powershell"
+
+mod "windows_dns",
+  :git => "git://github.com/jpicklyk/puppet-windows_dns"
