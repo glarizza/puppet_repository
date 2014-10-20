@@ -39,12 +39,10 @@ mod "rismoney/chocolatey"
 # Modules from Github using various references
 
 mod "role",
-  :git => "git://github.com/jpicklyk/role",
-  :ref => "domain_member"
+  :git => "git://github.com/jpicklyk/role"
 
 mod "profile",
-  :git => "git://github.com/jpicklyk/profile",
-  :ref => "domain_member"
+  :git => "git://github.com/jpicklyk/profile"
 
 mod "custom_facts",
   :git => "git://github.com/jpicklyk/custom_facts"
