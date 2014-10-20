@@ -1,0 +1,12 @@
+windows_ad::restart: true
+windows_ad::domainname: 'jeffp01.net'
+windows_ad::domain: 'forest'
+windows_ad::netbiosdomainname: 'jeffp01'
+windows_ad::domainlevel: '4'
+windows_ad::forestlevel: '4'
+windows_ad::installtype: 'domain'
+windows_ad::dsrmpassword: 'P@ssw0rd123'
+windows_ad::localadminpassword: 'P@ssw0rd123'
+
+profile::domain_member::username: 'azureuser'
+profile::domain_member::password: 'P@ssw0rd123'

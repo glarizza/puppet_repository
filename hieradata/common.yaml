@@ -1,2 +1,14 @@
 ---
-message: "This node is using common data"
+windows_puppet::master: 'puppet-ss360labs.cloudapp.net'
+windows_puppet::version: '3.7.1'
+profile::win_default_apps::applications:
+  - "notepadplusplus.install"
+  - "wireshark"
+  - "sysinternals"
+  - "7zip.install"
+  - "GoogleChrome"
+  - "windirstat"
+  - "windowstelnet"
+  - "PowerShell"
+classes:
+  profile::base 
