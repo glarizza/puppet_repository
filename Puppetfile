@@ -8,11 +8,11 @@ mod 'inifile',
   :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
   :ref => '033722a34a4a3bae6cc5bcb36995482d8c2b15af'
 
-mod 'te_centrify',
-  :git => 'https://github.com/glarizza/te_centrify.git',
-  :ref => 'gary_refactor'
+#mod 'te_centrify',
+#  :git => 'https://github.com/glarizza/te_centrify.git',
+#  :ref => 'gary_refactor'
 
 mod 'augeasproviders',
   :git => 'https://github.com/hercules-team/augeasproviders.git',
-  :ref => '2.1.3'
+  :ref => 'bbfc6ff9fa9acfd39e1ae9aff6341dc07e86a8d4'
 
