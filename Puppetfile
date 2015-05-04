@@ -12,3 +12,7 @@ mod 'te_centrify',
   :git => 'https://github.com/glarizza/te_centrify.git',
   :ref => 'gary_refactor'
 
+mod 'augeasproviders',
+  :git => 'https://github.com/hercules-team/augeasproviders.git',
+  :ref => '2.1.3'
+
