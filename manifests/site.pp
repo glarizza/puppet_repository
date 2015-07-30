@@ -19,7 +19,7 @@
 
 # Define filebucket 'main':
 filebucket { 'main':
-  server => 'master',
+  server => $::settings::server,
   path   => false,
 }
 
