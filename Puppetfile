@@ -13,7 +13,7 @@ mod 'puppetlabs/firewall'
 
 mod 'profiles',
   :git => 'git://github.com/glarizza/puppet-profiles',
-  :ref => '27c69dd4051e9538a4825c148e65087c91cf3038'
+  :ref => '595540e193a9565925a90297a65241f9723a006a'
 
 mod 'grafana',
   :git => 'https://github.com/bfraser/puppet-grafana.git',
