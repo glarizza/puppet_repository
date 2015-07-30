@@ -19,3 +19,20 @@ mod 'grafana',
   :git => 'https://github.com/bfraser/puppet-grafana.git',
   :tag => 'v2.0.2'
 
+## Grafana Dependencies
+mod 'archive',
+  :git => 'https://github.com/camptocamp/puppet-archive.git',
+  :tag => '0.8.0'
+
+mod 'docker',
+  :git => 'https://github.com/garethr/garethr-docker.git',
+  :tag => 'v3.5.0'
+
+mod 'wget',
+  :git => 'https://github.com/maestrodev/puppet-wget.git',
+  :tag => 'v1.7.0'
+
+mod 'stdlib',
+  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
+  :tag => '3.2.0'
+
