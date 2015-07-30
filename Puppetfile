@@ -34,5 +34,5 @@ mod 'wget',
 
 mod 'stdlib',
   :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
-  :tag => '3.2.0'
+  :tag => '4.6.0'
 
