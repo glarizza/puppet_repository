@@ -7,9 +7,9 @@ mod 'golja/influxdb', '0.1.2'
 mod 'puppetlabs/firewall'
 
 # Modules from Github using various references
-mod 'notifyme',
-  :git => 'git://github.com/glarizza/puppet-notifyme',
-  :ref => '50c01703b2e3e352520a9a2271ea4947fe17a51f'
+#mod 'notifyme',
+#  :git => 'git://github.com/glarizza/puppet-notifyme',
+#  :ref => '50c01703b2e3e352520a9a2271ea4947fe17a51f'
 
 mod 'profiles',
   :git => 'git://github.com/glarizza/puppet-profiles',
