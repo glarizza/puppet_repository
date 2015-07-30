@@ -3,6 +3,8 @@ forge "http://forge.puppetlabs.com"
 # Modules from the Puppet Forge
 mod "puppetlabs/apache"
 mod "puppetlabs/ntp"
+mod 'golja/influxdb', '0.1.2'
+mod 'puppetlabs/firewall'
 
 # Modules from Github using various references
 mod 'notifyme',
@@ -11,5 +13,9 @@ mod 'notifyme',
 
 mod 'profiles',
   :git => 'git://github.com/glarizza/puppet-profiles',
-  :ref => '3611ae4253ff01762f9bda1d93620edf8f9a3b22'
+  :ref => '27c69dd4051e9538a4825c148e65087c91cf3038'
+
+mod 'grafana',
+  :git => 'https://github.com/bfraser/puppet-grafana.git',
+  :tag => 'v2.0.2'
 
