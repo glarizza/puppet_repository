@@ -44,4 +44,5 @@ node default {
   # Example:
   #   class { 'my_class': }
   #include profiles::jenkins
+  #include profiles::puppet_four_changes
 }
