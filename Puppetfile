@@ -19,6 +19,11 @@ mod 'grafana',
   :git => 'https://github.com/bfraser/puppet-grafana.git',
   :tag => 'v2.0.2'
 
+## Catalog Differ Tool
+mod 'catalog_diff',
+  :git => 'https://github.com/acidprime/puppet-catalog-diff.git',
+  :ref => '5ef365a0bc3464f54b9418ebde87233b223238da'
+
 ## Grafana Dependencies
 mod 'archive',
   :git => 'https://github.com/camptocamp/puppet-archive.git',
@@ -39,4 +44,21 @@ mod 'stdlib',
 mod 'concat',
   :git => 'https://github.com/puppetlabs/puppetlabs-concat.git',
   :tag => '1.2.4'
+
+## Jenkins and dependencies
+mod 'jenkins',
+  :git => 'https://github.com/jenkinsci/puppet-jenkins.git',
+  :tag => 'v1.5.0'
+
+mod 'staging',
+  :git => 'https://github.com/nanliu/puppet-staging.git',
+  :tag => '1.0.4'
+
+mod 'archive',
+  :git => 'https://github.com/camptocamp/puppet-archive.git',
+  :tag => '0.8.1'
+
+mod 'java',
+  :git => 'https://github.com/puppetlabs/puppetlabs-java.git',
+  :tag => '1.4.1'
 
