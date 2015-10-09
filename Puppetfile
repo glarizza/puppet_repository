@@ -7,13 +7,9 @@ mod 'golja/influxdb', '0.1.2'
 mod 'puppetlabs/firewall'
 
 # Modules from Github using various references
-#mod 'notifyme',
-#  :git => 'git://github.com/glarizza/puppet-notifyme',
-#  :ref => '50c01703b2e3e352520a9a2271ea4947fe17a51f'
-
 mod 'profiles',
   :git => 'git://github.com/glarizza/puppet-profiles',
-  :ref => 'fadc05e337c191ff7198286570581a6058edc808'
+  :ref => '576552574f4c24b0253760d7632fee27ed07ec78'
 
 mod 'grafana',
   :git => 'https://github.com/bfraser/puppet-grafana.git',
@@ -25,10 +21,6 @@ mod 'catalog_diff',
   :ref => '5ef365a0bc3464f54b9418ebde87233b223238da'
 
 ## Grafana Dependencies
-mod 'archive',
-  :git => 'https://github.com/camptocamp/puppet-archive.git',
-  :tag => '0.8.0'
-
 mod 'docker',
   :git => 'https://github.com/garethr/garethr-docker.git',
   :tag => 'v3.5.0'
