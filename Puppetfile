@@ -54,3 +54,7 @@ mod 'java',
   :git => 'https://github.com/puppetlabs/puppetlabs-java.git',
   :tag => '1.4.1'
 
+mod 'node_manager',
+  :git => 'https://github.com/puppetlabs/prosvcs-node_manager.git',
+  :tag => '0.2.1'
+
