@@ -58,3 +58,7 @@ mod 'node_manager',
   :git => 'https://github.com/puppetlabs/prosvcs-node_manager.git',
   :tag => '0.2.1'
 
+mod 'inifile',
+  :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
+  :tag => '1.4.3'
+
