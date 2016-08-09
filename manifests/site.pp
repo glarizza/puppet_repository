@@ -29,6 +29,13 @@ File { backup => 'main' }
 # Kill deprecation warnings in PE 3.3:
 Package { allow_virtual => false }
 
+# Node entry for upgrade testing
+node 'pe-385-master.puppetdebug.vlan' {
+  include profiles::puppet_four_changes
+  include profiles::jenkins
+}
+
+
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
 # http://docs.puppetlabs.com/guides/language_guide.html#nodes for more on
