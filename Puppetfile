@@ -5,6 +5,8 @@ mod "puppetlabs/apache"
 mod "puppetlabs/ntp"
 mod 'golja/influxdb', '0.1.2'
 mod 'puppetlabs/firewall'
+mod 'pltraining/rbac'
+mod 'abrader/gms', '1.0.3'
 
 # Modules from Github using various references
 mod 'profiles',
@@ -53,4 +55,17 @@ mod 'archive',
 mod 'java',
   :git => 'https://github.com/puppetlabs/puppetlabs-java.git',
   :tag => '1.4.1'
+
+mod 'node_manager',
+  :git => 'https://github.com/puppetlabs/prosvcs-node_manager.git',
+  :tag => '0.2.1'
+
+mod 'inifile',
+  :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git',
+  :tag => '1.4.3'
+
+# Nick's module that manages Code Manager
+mod 'pe_code_manager_webhook',
+  :git => 'git@github.com:npwalker/pe_code_manager_webhook.git',
+  :tag => '1.0.12'
 
