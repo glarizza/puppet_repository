@@ -66,6 +66,6 @@ mod 'inifile',
 
 # Nick's module that manages Code Manager
 mod 'pe_code_manager_webhook',
-  :git => 'git@github.com:npwalker/pe_code_manager_webhook.git',
+  :git => 'https://github.com/npwalker/pe_code_manager_webhook.git',
   :tag => '1.0.12'
 
